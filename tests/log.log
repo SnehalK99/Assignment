@@ -1,0 +1,104 @@
+Test case started...
+Connecting to remote server:
+starting thread (client mode): 0xd5d92cc0
+Local version/idstring: SSH-2.0-paramiko_2.6.0
+Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6
+Connected (version 2.0, client OpenSSH_7.4p1)
+kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+Kex agreed: curve25519-sha256@libssh.org
+HostKey agreed: ssh-ed25519
+Cipher agreed: aes128-ctr
+MAC agreed: hmac-sha2-256
+Compression agreed: none
+kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+Switch to new keys ...
+Adding ssh-ed25519 host key for 192.168.0.183: b'c27a75dfec239f20f139ed2b12edb7a5'
+userauth is OK
+Authentication (password) successful!
+Connection to host successful
+[chan 0] Max packet in: 32768 bytes
+Received global request "hostkeys-00@openssh.com"
+Rejecting "hostkeys-00@openssh.com" global request from server.
+[chan 0] Max packet out: 32768 bytes
+Secsh channel 0 opened.
+[chan 0] Sesch channel 0 request ok
+[chan 0] EOF received (0)
+[chan 0] EOF sent (0)
+Connecting to remote server:
+starting thread (client mode): 0xd5ddc5f8
+Local version/idstring: SSH-2.0-paramiko_2.6.0
+Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6
+Connected (version 2.0, client OpenSSH_7.4p1)
+kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+Kex agreed: curve25519-sha256@libssh.org
+HostKey agreed: ssh-ed25519
+Cipher agreed: aes128-ctr
+MAC agreed: hmac-sha2-256
+Compression agreed: none
+kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+Switch to new keys ...
+Adding ssh-ed25519 host key for 192.168.0.183: b'c27a75dfec239f20f139ed2b12edb7a5'
+userauth is OK
+Authentication (password) successful!
+Connection to host successful
+[chan 0] Max packet in: 32768 bytes
+Received global request "hostkeys-00@openssh.com"
+Rejecting "hostkeys-00@openssh.com" global request from server.
+[chan 0] Max packet out: 32768 bytes
+Secsh channel 0 opened.
+[chan 0] Sesch channel 0 request ok
+[chan 0] EOF received (0)
+[chan 0] EOF sent (0)
+1 Critical Test Passed
+Test case started...
+Connecting to remote server:
+starting thread (client mode): 0xf461ab38
+Local version/idstring: SSH-2.0-paramiko_2.6.0
+Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6
+Connected (version 2.0, client OpenSSH_7.4p1)
+kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+Kex agreed: curve25519-sha256@libssh.org
+HostKey agreed: ssh-ed25519
+Cipher agreed: aes128-ctr
+MAC agreed: hmac-sha2-256
+Compression agreed: none
+kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+Switch to new keys ...
+Adding ssh-ed25519 host key for 192.168.0.183: b'c27a75dfec239f20f139ed2b12edb7a5'
+userauth is OK
+Authentication (password) successful!
+Connection to host successful
+[chan 0] Max packet in: 32768 bytes
+Received global request "hostkeys-00@openssh.com"
+Rejecting "hostkeys-00@openssh.com" global request from server.
+[chan 0] Max packet out: 32768 bytes
+Secsh channel 0 opened.
+[chan 0] Sesch channel 0 request ok
+[chan 0] EOF received (0)
+[chan 0] EOF sent (0)
+Connecting to remote server:
+starting thread (client mode): 0xf46742e8
+Local version/idstring: SSH-2.0-paramiko_2.6.0
+Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6
+Connected (version 2.0, client OpenSSH_7.4p1)
+kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+Kex agreed: curve25519-sha256@libssh.org
+HostKey agreed: ssh-ed25519
+Cipher agreed: aes128-ctr
+MAC agreed: hmac-sha2-256
+Compression agreed: none
+kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+Switch to new keys ...
+Adding ssh-ed25519 host key for 192.168.0.183: b'c27a75dfec239f20f139ed2b12edb7a5'
+userauth is OK
+Authentication (password) successful!
+Connection to host successful
+[chan 0] Max packet in: 32768 bytes
+Received global request "hostkeys-00@openssh.com"
+Rejecting "hostkeys-00@openssh.com" global request from server.
+[chan 0] Max packet out: 32768 bytes
+Secsh channel 0 opened.
+[chan 0] Sesch channel 0 request ok
+[chan 0] EOF received (0)
+[chan 0] EOF sent (0)
+1 Critical Test Passed
